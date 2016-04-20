@@ -28,15 +28,16 @@
 }
 #plus-button{
     position: relative;
-    left: 85%;
-    font-size: 4em;
+    left: 80%;
+    font-size: 3.5em;
+    color: deeppink;    
 }
 #plus-button:hover{
    font-size: 5em;
 }
 .glyphicon-plus-sign{
-    background-color:  white;
-    color: deeppink;
+    background-color: transparent;
+    
 }
 
 .footer{
