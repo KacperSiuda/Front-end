@@ -1,5 +1,6 @@
 .body{
     background-color: bisque;
+
 }
 
 .header{
@@ -13,13 +14,17 @@
     height: 100px;
     background-color: transparent;
     border: none;
+    transition: 500ms;
 }
 .glyphicon-align-justify{
     font-size: 2em;
+    color: black;
 }
 
 .header button:hover{
     color: deeppink;
+    font-size: 3em;
+    transition: 500ms;
 }
 
 .menu{
@@ -29,12 +34,14 @@
 #plus-button{
     position: relative;
     font-size: 3.5em;
-    color: deeppink;   
+    color: deeppink; 
+    transition: 500ms;  
 }
 #plus-button:hover{
    font-size: 5em;
     text-shadow: 0px 0px 10px blueviolet;
     cursor: pointer;
+    transition: 500ms;
    
 }
 .glyphicon-plus-sign{
@@ -58,9 +65,12 @@
     top: -10px;
     margin: 3%;
     box-shadow: 5px 5px 5px grey;
+    transition: 500ms;
 }
 #post:hover{
     box-shadow: 10px 10px 5px grey;
+    height: 105%;
+    transition: 500ms;
 }
 #post h3 {
     text-align: center;   
