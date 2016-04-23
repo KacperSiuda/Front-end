@@ -1,7 +1,41 @@
-html {
+body {
     background-image:  url('../Resources/img_background.jpg');
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
-    background-size: cover;   
+    background-size: cover; 
+    background-repeat: no-repeat;
+      
+}
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:left;
+    margin-right:-4px;
+}
+
+#vcard{
+    z-index: 1;
+    margin-top: 5%;
+    width: 50%;
+    height: auto;
+    opacity: 1;
+    background-color: white;
+    border: 2px solid black;  
+}
+
+#profile-picture{
+    z-index: 2;
+    margin-top: 10px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 3px solid black;
+    opacity: 0.9;
+    
+    
 }
