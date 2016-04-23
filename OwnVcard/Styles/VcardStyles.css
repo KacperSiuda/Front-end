@@ -4,10 +4,10 @@ body {
     -moz-background-size:cover;
     -o-background-size:cover;
     background-size: cover; 
-    background-repeat: no-repeat;
-      
+    background-repeat: no-repeat;      
 }
-/* centered columns styles */
+
+
 .row-centered {
     text-align:center;
 }
@@ -19,23 +19,50 @@ body {
 }
 
 #vcard{
-    z-index: 1;
     margin-top: 5%;
     width: 50%;
     height: auto;
-    opacity: 1;
+    opacity: 0.7;
     background-color: white;
-    border: 2px solid black;  
+    border: 2px solid darkslategrey;  
+
+}
+#vcard:hover{
+    opacity: 1;
+    transition-duration: 500ms;
 }
 
 #profile-picture{
-    z-index: 2;
     margin-top: 10px;
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
-    border: 3px solid black;
-    opacity: 0.9;
+    border: 3px solid darkslategrey;   
+}
+#email-box{
+    background-color:  blue;
+    
     
     
 }
+#social-media span{
+    display: inline;
+    margin: 10px;
+}
+#social-media a{
+    text-decoration: none;
+}
+.fa {
+    font-size: 3em;
+    color: darkslategrey;
+    text-shadow: 2px 2px 2px grey;
+}
+.fa:hover {
+    font-size: 4em;
+    transition-duration: 200ms;
+    color: darkslategrey;
+    text-shadow: 5px 5px 5px grey;
+
+}
+
+
